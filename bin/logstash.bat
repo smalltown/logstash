@@ -15,7 +15,7 @@ set LS_MIN_MEM=256m
 )
 
 if "%LS_MAX_MEM%" == "" (
-set LS_MAX_MEM=1g
+set LS_MAX_MEM=512m
 )
 
 set JAVA_OPTS=%JAVA_OPTS% -Xms%LS_MIN_MEM% -Xmx%LS_MAX_MEM%
