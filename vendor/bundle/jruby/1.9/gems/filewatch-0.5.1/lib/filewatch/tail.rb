@@ -296,7 +296,7 @@ module FileWatch
       @sincedb_write_pending = false
       @sincedb_writing = false
 
-      System.gc()
+      #System.gc()
     end # def _sincedb_write
 
     public
